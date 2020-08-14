@@ -1,0 +1,1 @@
+export const API_URL = "https://restcountries.eu/rest/v2/all?fields=name;capital;nativeName;region;subregion;population;area;timezones;borders;currencies;languages;flag;"

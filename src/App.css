@@ -1,3 +1,22 @@
+
+/* .searchbar{
+  width:50%
+}
+.dropdown{
+  width:50%
+} */
+.table{
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+.flexstyle{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.minWidth{
+  min-width: 100px;
+}
 .App {
   text-align: center;
 }
