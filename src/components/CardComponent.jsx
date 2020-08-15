@@ -17,10 +17,10 @@ class CardComponent extends Component {
             <>
                 <div className="col-md-4 mt-3">
                     <div className="card">
-                        <a data-toggle="modal" data-target="#exampleModalCenter" onClick={() => {this.props.modalCallback(this.props.country)} }>
-                            <img className="card-img-top" src={this.state.flagImg} alt="Country image" />
+                        <a href="#" data-toggle="modal" data-target="#exampleModalCenter" onClick={() => {this.props.modalCallback(this.props.country)} }>
+                            <img className="card-img-top imgCard" src={this.state.flagImg} alt="Country image"/>
                         </a>
-                        <div className="card-footer bg-transparent border-success">
+                        <div className="card-footer bg-transparent">
                             <div className="text-left"><h5>{this.state.countryName}</h5></div>
                             <div>
                                 <span className="float-left"><FontAwesomeIcon icon={faCity} /> {this.state.capital}  </span>

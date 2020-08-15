@@ -21,6 +21,7 @@ class CountriesComponent extends Component {
             <div className="container flexstyle">
                 {console.log("value of props :: ", this.props.selectedCountry)}
                 <div className=" row hidden-md-up w-100">
+                    <div className="card-group">
                     {
                         (this.props.selectedCountry != "All") ?
                             (
@@ -40,6 +41,7 @@ class CountriesComponent extends Component {
                                 )
                             )
                     }
+                    </div>
                 </div>
             </div>
         </>

@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 class SearchCountriesComponent extends Component {
 
@@ -19,11 +17,24 @@ class SearchCountriesComponent extends Component {
 
     render() {
         return (
+
+        //     <div className="input-group mb-3 dropdown">
+        //     <div className="input-group-prepend">
+        //         <label className="input-group-text" >Region</label>
+        //     </div>
+        //     <select data-live-search="true" className="form-control custom-select" onChange={this.handleChange}>
+        //             {
+        //                 this.state.continents.map(
+        //                     continent => (<option key={continent} value= {continent}> {continent} </option>)
+        //                 )
+        //             }
+        //     </select>
+        // </div>
+
+
             <div className="input-group input-group mb-3 dropdown">
-                <div className="input-group-append">
-                    <button className="btn btn-secondary" type="button">
-                        <FontAwesomeIcon icon={faSearch} />
-                    </button>
+                <div className="input-group-prepend">
+                    <label className="input-group-text">Country</label>
                 </div>
                 
                 {console.log("countries value in searchComponent is ", this.props.countries)}

@@ -5,6 +5,26 @@
 .dropdown{
   width:50%
 } */
+/* .card{
+  height: 100%;
+}
+.card-footer{
+  position: absolute;
+  width:100%;
+  bottom:0px;
+} */
+.ModalImg{
+  max-width: 80%;
+  box-shadow: 0.33333rem 0 1.9rem rgba(87, 87, 87, 0.8);
+  border-radius: 5%;
+}
+.modalStyle{
+  border-radius: 3% !important;
+}
+.imgCard{
+  max-width: 100%;
+  height: auto;
+}
 .table{
   table-layout: fixed;
   word-wrap: break-word;
