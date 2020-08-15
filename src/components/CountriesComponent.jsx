@@ -28,7 +28,7 @@ class CountriesComponent extends Component {
                                 this.props.allCountries.map(
                                     (nation) =>
                                         <>
-                                            {(nation.name == this.props.selectedCountry) && <CardComponent key={nation.name} country={nation} return />}
+                                            {(nation.name == this.props.selectedCountry) && <CardComponent key={nation.name} country={nation} modalCallback= {this.props.modalCallback}  />}
                                         </>
                                 )
                             ) :
